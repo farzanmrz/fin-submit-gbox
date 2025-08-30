@@ -6,9 +6,6 @@
 
 This document serves as my official submission for the [technical interview at gbox](https://docs.google.com/document/d/11XDcIPJqPaJczxd3bZJu001tGlhBJ2QyQOJ7gYeE5YM/edit?tab=t.0#heading=h.yf5q1o75t9l3), showcasing proofs of task completion.  It further explains the reasons for any modifications to official instructions due to the architectural constraints of adapting the *[AndroidWorld Benchmark](https://github.com/google-research/android_world)* for Apple Silicon (M1 Max) to Gbox Agents.
 
-**⛔️ IMPORTANT NOTE:** Section "2. Learnings from Problems" is particularly important, as it details the complex problem-solving and justifications for the unconventional choices made during this challenging but rewarding task.
-
-<br><br>
 # Deliverables ✅
 ## ``Challenge 1`` - Setup AndroidWorld Benchmark ✅ 
 - [Image below](appendix/ch1_img_avd.png) demonstrates the AVD configured with exact specifications from the [AndroidWorld README](https://github.com/google-research/android_world/blob/main/README.md). The Device Manager confirms creation of "AndroidWorldAvd" while the Edit Device dialog verifies all required specifications were implemented.
@@ -20,11 +17,10 @@ This document serves as my official submission for the [technical interview at g
 
     The [terminal output](appendix/ch1_term_recipe.txt) has been truncated for readability (reducing repeated `I0`, `W0`, `E0` log entries to max 3 occurrences consecutively) while preserving the exact completion state. The ending output is as described in the [GBOX Technical Interview Task](https://docs.google.com/document/d/11XDcIPJqPaJczxd3bZJu001tGlhBJ2QyQOJ7gYeE5YM/edit?tab=t.0#heading=h.yf5q1o75t9l3) document:
     [The 52-second video](appendix/ch1_vid_recipe.mp4) captures the agent's real-time interaction at 4x speed, documenting behavior from step 12 onward of the RecipeAddMultipleRecipes task. Due to file size, please download for optimal viewing.
-  
-<center><img src="appendix/ch1.gif" width="20%" height="30%" align="center"/></center>
+<img src="appendix/ch1.gif" width="20%" height="30%" align="center"/>
 
 
-## 1.2. ``Challenge 2`` - Build Custom Agent to Run Benchmark ✅
+## ``Challenge 2`` - Build Custom Agent to Run Benchmark ✅
 - [Terminal output](appendix/ch2_term_avd.txt) shows virtual device from *Challenge 1* until [first screen](appendix/ch2_img_avd.png), setup using the following command:
     ```bash
     ~/Library/Android/sdk/emulator/emulator -avd AndroidWorldAvd -no-snapshot -grpc 8554
@@ -37,19 +33,13 @@ This document serves as my official submission for the [technical interview at g
     Connection established successfully!
     (Running in background. Use 'gbox device-connect unregister' to stop.)
     ```
-- The custom agent [``agents/farzan_agent.py``](../android_world/agents/farzan_agent.py) in action [video](appendix/)
-<center><img src="appendix/ch2.gif" width="30%" height="30%" align="center"/></center>
+- The custom agent [``agents/farzan_agent.py``](../android_world/agents/farzan_agent.py) in action [video](appendix/ch2_vid.mov) and [terminal output](appendix/ch2_term.txt)
+<centering><img src="appendix/ch2.gif" width="30%" height="30%" align="center"/></centering>
 
+## ``Challenge 3`` - Configure Claude Code (cc) to Run Benchmark ✅
+Since Claude Code and Agent were pre-setup on my system this task happened quick with some NodeJS versioning troubles. The actual video exceeded 200MB therefore here is a spedup gif I could fit
+<centering><img src="appendix/ch3.gif" width="50%" height="50%" align="center"/></centering>
 
-
-
-## 1.3. ``Challenge 3`` - Configure Claude Code (cc) to Run Benchmark ✅
-
-```bash
-
-    More stuff will be put in later
-
-```
 
 # 2. Issues and Technical Deep Dive ⛔️  
 ## 2.1. AndroidStudio Setup
