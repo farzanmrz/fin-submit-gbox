@@ -1,0 +1,288 @@
+I0829 21:53:17.432687 8779718848 adb_call_parser.py:98] AdbRequest command type: settings
+I0829 21:53:17.432723 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell settings put global no_proxy 10.0.2.2:55475]
+I0000 00:00:1756518797.432983 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:17.464252 8779718848 adb_call_parser.py:98] AdbRequest command type: settings
+I0829 21:53:17.464426 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell settings put global airplane_mode_on 0]
+I0000 00:00:1756518797.464758 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:18.497730 8779718848 adb_call_parser.py:98] AdbRequest command type: generic
+I0829 21:53:18.498725 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell svc wifi enable]
+I0000 00:00:1756518798.506853 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:19.552358 8779718848 adb_call_parser.py:98] AdbRequest command type: send_broadcast
+I0829 21:53:19.553520 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell am broadcast -a accessibility_forwarder.intent.action.SET_GRPC --ei "port" 55475 -n com.google.androidenv.accessibilityforwarder/com.google.androidenv.accessibilityforwarder.FlagsBroadcastReceiver]
+I0000 00:00:1756518799.555070 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:19.619328 8779718848 env_launcher.py:92] Freezing datetime.
+I0829 21:53:19.619606 8779718848 adb_call_parser.py:98] AdbRequest command type: generic
+I0829 21:53:19.619673 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell whoami]
+I0000 00:00:1756518799.620077 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:19.650922 8779718848 adb_call_parser.py:98] AdbRequest command type: settings
+I0829 21:53:19.651176 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell settings put global auto_time 0]
+I0000 00:00:1756518799.651517 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:19.684611 8779718848 adb_call_parser.py:98] AdbRequest command type: settings
+I0829 21:53:19.684815 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell settings put global auto_time_zone 0]
+I0000 00:00:1756518799.685155 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:19.719455 8779718848 adb_call_parser.py:98] AdbRequest command type: settings
+I0829 21:53:19.719678 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell settings put system time_12_24 24]
+I0000 00:00:1756518799.720042 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:19.752724 8779718848 adb_call_parser.py:98] AdbRequest command type: generic
+I0829 21:53:19.752897 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell service call alarm 3 s16 UTC]
+I0000 00:00:1756518799.753259 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+Initializing agent...
+Starting eval with agent farzan_agent and writing to /Users/farzanmirza/android_world/runs/run_20250829T215319930299
+I0829 21:53:19.930498 8779718848 suite_utils.py:74] Running task: ContactsAddContact
+================================
+Running task: ContactsAddContact
+================================
+I0829 21:53:19.930598 8779718848 adb_call_parser.py:98] AdbRequest command type: generic
+I0829 21:53:19.930634 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell whoami]
+I0000 00:00:1756518799.930882 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:19.955821 8779718848 adb_call_parser.py:98] AdbRequest command type: settings
+I0829 21:53:19.956015 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell settings put global auto_time 0]
+I0000 00:00:1756518799.956344 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:19.989179 8779718848 adb_call_parser.py:98] AdbRequest command type: settings
+I0829 21:53:19.989359 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell settings put global auto_time_zone 0]
+I0000 00:00:1756518799.989679 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:20.021406 8779718848 adb_call_parser.py:98] AdbRequest command type: settings
+I0829 21:53:20.021585 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell settings put system time_12_24 24]
+I0000 00:00:1756518800.021872 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:20.055062 8779718848 adb_call_parser.py:98] AdbRequest command type: generic
+I0829 21:53:20.055252 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell service call alarm 3 s16 UTC]
+I0000 00:00:1756518800.055572 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:20.082065 8779718848 adb_call_parser.py:98] AdbRequest command type: generic
+I0829 21:53:20.082220 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell whoami]
+I0829 21:53:20.133909 8779718848 adb_call_parser.py:98] AdbRequest command type: generic
+I0829 21:53:20.134062 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell date 1015153423.00]
+I0000 00:00:1756518800.134337 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:20.159259 8779718848 adb_call_parser.py:98] AdbRequest command type: generic
+I0829 21:53:20.159431 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell am force-stop com.google.android.contacts]
+I0000 00:00:1756518800.159734 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:20.206433 8779718848 adb_call_parser.py:98] AdbRequest command type: generic
+I0829 21:53:20.206597 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell 
+  if [ -d "/data/data/android_world/snapshots/com.google.android.contacts" ]; then
+      echo "Exists"
+  else
+      echo "Does not exist"
+  fi
+  ]
+I0000 00:00:1756518800.206910 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+W0829 21:53:20.232309 8779718848 task_eval.py:125] Skipping app snapshot loading : Snapshot not found in /data/data/android_world/snapshots/com.google.android.contacts.
+I0829 21:53:20.232761 8779718848 task_eval.py:148] Initializing ContactsAddContact
+I0829 21:53:20.232877 8779718848 adb_call_parser.py:98] AdbRequest command type: generic
+I0829 21:53:20.232908 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell pm clear com.android.providers.contacts]
+I0000 00:00:1756518800.233193 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:20.284537 8779718848 suite_utils.py:74] Running task ContactsAddContact with goal "Create a new contact for Hugo Pereira. Their number is +13920741751."
+Running task ContactsAddContact with goal "Create a new contact for Hugo Pereira. Their number is +13920741751."
+I0829 21:53:20.284772 8779718848 adb_utils.py:324] Attempting to press the HOME button
+I0829 21:53:20.284843 8779718848 adb_call_parser.py:98] AdbRequest command type: press_button
+I0829 21:53:20.284880 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell input keyevent KEYCODE_HOME]
+I0000 00:00:1756518800.285204 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:20.330114 8779718848 environment.py:69] Resetting AndroidEnv...
+I0829 21:53:20.331070 8779718848 log_stream.py:54] Pausing LogStream.
+I0829 21:53:20.331136 8779718848 log_stream.py:59] Resuming LogStream.
+I0829 21:53:20.349173 8779718848 environment.py:85] Done resetting AndroidEnv.
+I0829 21:53:20.349236 8779718848 environment.py:86] ************* NEW EPISODE *************
+I0829 21:53:20.349455 8779718848 adb_call_parser.py:98] AdbRequest command type: generic
+I0829 21:53:20.349501 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell settings get global airplane_mode_on]
+I0000 00:00:1756518800.349761 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:20.385369 8779718848 adb_call_parser.py:98] AdbRequest command type: generic
+I0829 21:53:20.385524 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell settings put system pointer_location 0]
+I0000 00:00:1756518800.402381 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+
+--- Goal: Create a new contact for Hugo Pereira. Their number is +13920741751. ---
+Orchestrator Response:
+ As an expert Android QA tester, I will break down the high-level goal into granular, actionable steps suitable for testing on an Android device. Here's the breakdown:
+
+**High-Level Goal:** Create a new contact for Hugo Pereira. Their number is +13920741751.
+
+**Actionable Steps for Android QA Testing:**
+
+1.  **Open the Contacts application.**
+2.  **Tap on the "Create new contact" or "+" (add contact) button.** (Specify the exact UI element if known, e.g., "Tap the '+' icon in the bottom right corner.")
+3.  **In the "First name" field, type "Hugo".**
+4.  **In the "Last name" field, type "Pereira".**
+5.  **Tap on the "Phone number" field (or the equivalent field for adding a phone number).**
+6.  **Enter the phone number "+13920741751" into the phone number field.**
+7.  **Tap the "Save" or "Done" button to confirm the creation of the contact.** (Again, specify the exact button if known, e.g., "Tap the checkmark icon in the top right corner.")
+8.  **Verify that a new contact named "Hugo Pereira" is now visible in the Contacts list.**
+9.  **Tap on the "Hugo Pereira" contact to open its details.**
+10. **Verify that the phone number "+13920741751" is correctly displayed for Hugo Pereira.**
+I0000 00:00:1756518801.552422 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0000 00:00:1756518801.562230 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:53:22.247100 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/android "HTTP/1.1 201 Created"
+I0829 21:53:22.350201 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2/live-view-url "HTTP/1.1 201 Created"
+I0000 00:00:1756518802.353877 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+Executing task: 'As an expert Android QA tester, I will break down the high-level goal into granular, actionable steps suitable for testing on an Android device. Here's the breakdown:'
+I0829 21:53:31.545535 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2/actions/ai "HTTP/1.1 201 Created"
+Executing task: '**High-Level Goal:** Create a new contact for Hugo Pereira. Their number is +13920741751.'
+I0829 21:53:37.035194 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2/actions/ai "HTTP/1.1 201 Created"
+Executing task: '**Actionable Steps for Android QA Testing:**'
+I0829 21:53:40.189798 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2/actions/ai "HTTP/1.1 201 Created"
+Executing task: '**Open the Contacts application.**'
+I0829 21:53:45.156811 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2/actions/ai "HTTP/1.1 201 Created"
+Executing task: '**Tap on the "Create new contact" or "+" (add contact) button.** (Specify the exact UI element if known, e.g., "Tap the '+' icon in the bottom right corner.")'
+I0829 21:53:49.638782 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2/actions/ai "HTTP/1.1 201 Created"
+Executing task: '**In the "First name" field, type "Hugo".**'
+I0829 21:53:53.353311 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2/actions/ai "HTTP/1.1 201 Created"
+Executing task: '**In the "Last name" field, type "Pereira".**'
+I0829 21:53:57.022742 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2/actions/ai "HTTP/1.1 201 Created"
+Executing task: '**Tap on the "Phone number" field (or the equivalent field for adding a phone number).**'
+I0829 21:54:00.947738 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2/actions/ai "HTTP/1.1 201 Created"
+Executing task: '**Enter the phone number "+13920741751" into the phone number field.**'
+I0829 21:54:05.583281 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2/actions/ai "HTTP/1.1 201 Created"
+Executing task: '**Tap the "Save" or "Done" button to confirm the creation of the contact.** (Again, specify the exact button if known, e.g., "Tap the checkmark icon in the top right corner.")'
+I0829 21:54:08.824375 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2/actions/ai "HTTP/1.1 201 Created"
+Executing task: '**Verify that a new contact named "Hugo Pereira" is now visible in the Contacts list.**'
+I0829 21:54:13.173409 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2/actions/ai "HTTP/1.1 201 Created"
+Executing task: '**Tap on the "Hugo Pereira" contact to open its details.**'
+I0829 21:54:17.220777 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2/actions/ai "HTTP/1.1 201 Created"
+Executing task: '**Verify that the phone number "+13920741751" is correctly displayed for Hugo Pereira.**'
+I0829 21:54:21.337356 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2/actions/ai "HTTP/1.1 201 Created"
+I0829 21:54:21.521946 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2/terminate "HTTP/1.1 200 OK"
+I0829 21:54:21.617560 8779718848 _client.py:1025] HTTP Request: GET https://gbox.ai/api/v1/boxes/066d45c9-d310-48c2-9a46-586d595cb4c2 "HTTP/1.1 200 OK"
+I0829 21:54:21.618960 8779718848 base_agent.py:104] Waiting for screen to stabilize before grabbing state...
+I0829 21:54:21.648644 8779718848 adb_call_parser.py:98] AdbRequest command type: generic
+I0829 21:54:21.648858 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell settings get global airplane_mode_on]
+I0829 21:54:21.716349 8779718848 adb_call_parser.py:98] AdbRequest command type: generic
+I0829 21:54:21.716518 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell settings get global airplane_mode_on]
+I0000 00:00:1756518861.716877 2079411 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0829 21:54:22.220848 8779718848 adb_call_parser.py:98] AdbRequest command type: generic
+I0829 21:54:22.220997 8779718848 adb_controller.py:121] Executing ADB command: [adb -P 5037 -s emulator-5554 shell settings get global airplane_mode_on]
+I0829 21:54:22.464500 8779718848 base_agent.py:107] Fetched after 0.8 seconds.
+Completed step 1.
+
+--- Goal: Create a new contact for Hugo Pereira. Their number is +13920741751. ---
+Orchestrator Response:
+ Okay, as an expert Android QA tester, I'll break down that high-level goal into granular, actionable steps suitable for execution on an Android device. The focus here is on clarity and ensuring each step can be verified.
+
+Here's the breakdown:
+
+**Goal:** Create a new contact for Hugo Pereira. Their number is +13920741751.
+
+**Actionable Steps:**
+
+1.  **Launch the "Contacts" application.**
+    *   *Verification:* The Contacts app icon is visible on the home screen or in the app drawer and is successfully opened.
+
+2.  **Tap on the "Add new contact" button.**
+    *   *Verification:* A button (often a "+" icon, a floating action button, or a text label like "Create new contact") is present and tappable, initiating the contact creation process.
+
+3.  **In the "First name" field, enter "Hugo".**
+    *   *Verification:* The text "Hugo" appears correctly in the designated first name input field.
+
+4.  **In the "Last name" field, enter "Pereira".**
+    *   *Verification:* The text "Pereira" appears correctly in the designated last name input field.
+
+5.  **Tap on the "Phone number" field.**
+    *   *Verification:* The cursor moves to the phone number input field, and the keyboard is displayed.
+
+6.  **Enter the phone number "+13920741751" into the phone number field.**
+    *   *Verification:* The digits "+13920741751" are accurately displayed in the phone number input field.
+
+7.  **Tap the "Save" button (or equivalent action to finalize contact creation).**
+    *   *Verification:* The contact creation screen is dismissed, and the newly created contact card for "Hugo Pereira" is displayed, showing the entered name and phone number.
+
+8.  **Navigate back to the main Contacts list.**
+    *   *Verification:* The user is returned to the primary list of contacts, and "Hugo Pereira" appears alphabetically in the list.
+
+**Additional Considerations (for more thorough testing, though not strictly part of the initial breakdown):**
+
+*   **Keyboard Visibility:** Ensure the keyboard appears and disappears appropriately during the process.
+*   **Input Field Focus:** Verify that input fields gain focus when tapped.
+*   **Data Persistence:** After closing and reopening the Contacts app, confirm the contact "Hugo Pereira" is still present.
+*   **Duplicate Contact Check:** If applicable, test the behavior if a contact with the same name or number already exists.
+*   **Number Formatting:** Observe if Android automatically formats the phone number (e.g., adding spaces or dashes).
+
+This breakdown ensures that each step is simple, testable, and directly contributes to the overall goal.
+I0829 21:54:24.925871 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/android "HTTP/1.1 201 Created"rzanmirza/.nvm/versions/node/v24.2.0/bin', 'NVM_INC': '/Users/farzanmirza/.nvm/versions/node/v24.2.0/include/node', 'OPENROUTER_API_KEY': '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', 'OPENAI_API_KEY': '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', 'ANTHROPIC_API_KEY': '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', 'GOOGLE_AI_STUDIO_KEY': 'AIzaSyBvkbZVO-B3MtvU9fVNosgQSFHIcDLBxiQ', 'GCP_API_KEY': 'AIzaSyBvkbZVO-B3MtvU9fVNosgQSFHIcDLBxiQ', 'DEEPSEEK_API_KEY': 'sk-abe94a713cf14504835d1c68edb65eed', 'PERPLEXITY_API_KEY': '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', 'OLLAMA_API_KEY': 'ee5dae3b52a241f182514f1e1ebeca7a.I0yyIBGHz66VDGxMghNVHgQg', 'BRAVE_SEARCH_API_KEY': 'BSA3vvo86aGuI13NHkQKbUhLEU8Q9az', 'GBOX_API_KEY': 'gbox_LzJZrB7fkA8DBcRXKBXbx17gMclJ9xuw5qufe1k7rEIykgPhgB', 'TERM_PROGRAM': 'vscode', 'TERM_PROGRAM_VERSION': '1.103.2', 'LANG': 'en_US.UTF-8', 'COLORTERM': 'truecolor', 'CLAUDE_CODE_SSE_PORT': '16813', 'ENABLE_IDE_INTEGRATION': 'true', 'GIT_ASKPASS': '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh', 'VSCODE_GIT_ASKPASS_NODE': '/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VSCODE_GIT_ASKPASS_MAIN': '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_IPC_HANDLE': '/var/folders/lj/0wwrvd593fs6m_bwwbmvddy40000gp/T/vscode-git-ea392570d1.sock', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/Users/farzanmirza/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/.noConfigDebugAdapterEndpoints/endpoint-d83c414a89a9a734.txt', 'BUNDLED_DEBUGPY_PATH': '/Users/farzanmirza/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/libs/debugpy', 'VSCODE_INJECTION': '1', 'ZDOTDIR': '/Users/farzanmirza', 'USER_ZDOTDIR': '/Users/farzanmirza', 'TERM': 'xterm-256color', 'VSCODE_PROFILE_INITIALIZED': '1', 'CONDA_PREFIX': '/Users/farI0829 21:55:02.686712 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/5179e4f4-e1a8-469b-9aab-88895959f5df/actions/ai "HTTP/1.1 201 Created"
+Executing task: '*   *Verification:* A button (often a "+" icon, a floating action button, or a text label like "Create new contact") is present and tappable, initiating the contact creation process.'
+I0829 21:55:06.879167 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/5179e4f4-e1a8-469b-9aab-88895959f5df/actions/ai "HTTP/1.1 201 Created"
+Executing task: '**In the "First name" field, enter "Hugo".**'
+I0829 21:55:10.517920 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/5179e4f4-e1a8-469b-9aab-88895959f5df/actions/ai "HTTP/1.1 201 Created"
+Executing task: '*   *Verification:* The text "Hugo" appears correctly in the designated first name input field.'
+I0829 21:55:14.692258 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/5179e4f4-e1a8-469b-9aab-88895959f5df/actions/ai "HTTP/1.1 201 Created"
+Executing task: '**In the "Last name" field, enter "Pereira".**'
+I0829 21:55:18.346920 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/5179e4f4-e1a8-469b-9aab-88895959f5df/actions/ai "HTTP/1.1 201 Created"
+Executing task: '*   *Verification:* The text "Pereira" appears correctly in the designated last name input field.'
+I0829 21:55:25.227572 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/5179e4f4-e1a8-469b-9aab-88895959f5df/actions/ai "HTTP/1.1 201 Created"
+Executing task: '**Tap on the "Phone number" field.**'
+I0829 21:55:29.033108 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/5179e4f4-e1a8-469b-9aab-88895959f5df/actions/ai "HTTP/1.1 201 Created"
+Executing task: '*   *Verification:* The cursor moves to the phone number input field, and the keyboard is displayed.'
+I0829 21:55:32.734569 8779718848 _client.py:1025] HTTP Request: POST https://gbox.ai/api/v1/boxes/5179e4f4-e1a8-469b-9aab-88895959f5df/actions/ai "HTTP/1.1 400 Bad Request"
+I0829 21:55:32.736581 8779718848 suite_utils.py:74] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SKIPPING ContactsAddContact.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SKIPPING ContactsAddContact.
+E0829 21:55:32.736783 8779718848 suite_utils.py:251] Logging exception and skipping task. Will keep running. Task: ContactsAddContact: Error code: 400 - {'code': 400, 'success': False, 'message': 'Invalid request parameters', 'errors': [], 'timestamp': '2025-08-30T01:55:32.728Z'}
+Traceback (most recent call last):
+  File "/Users/farzanmirza/Desktop/drive/coding/android_world/android_world/suite_utils.py", line 247, in _run_task
+    interaction_results = run_episode(task)
+                          ^^^^^^^^^^^^^^^^^
+  File "/Users/farzanmirza/Desktop/drive/coding/android_world/android_world/suite_utils.py", line 456, in run_episode
+    return episode_runner.run_episode(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/farzanmirza/Desktop/drive/coding/android_world/android_world/episode_runner.py", line 81, in run_episode
+    result = agent.step(goal)
+             ^^^^^^^^^^^^^^^^
+  File "/Users/farzanmirza/Desktop/drive/coding/android_world/android_world/agents/farzan_agent.py", line 136, in step
+    box.action.ai(task)
+  File "/Users/farzanmirza/miniconda3/envs/android_world/lib/python3.11/site-packages/gbox_sdk/wrapper/box/action.py", line 137, in ai
+    return self.client.v1.boxes.actions.ai(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/farzanmirza/miniconda3/envs/android_world/lib/python3.11/site-packages/gbox_sdk/resources/v1/boxes/actions.py", line 156, in ai
+    self._post(
+  File "/Users/farzanmirza/miniconda3/envs/android_world/lib/python3.11/site-packages/gbox_sdk/_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/farzanmirza/miniconda3/envs/android_world/lib/python3.11/site-packages/gbox_sdk/_base_client.py", line 1032, in request
+    raise self._make_status_error_from_response(err.response) from None
+gbox_sdk.BadRequestError: Error code: 400 - {'code': 400, 'success': False, 'message': 'Invalid request parameters', 'errors': [], 'timestamp': '2025-08-30T01:55:32.728Z'}
+Traceback (most recent call last):
+  File "/Users/farzanmirza/Desktop/drive/coding/android_world/android_world/suite_utils.py", line 247, in _run_task
+    interaction_results = run_episode(task)
+                          ^^^^^^^^^^^^^^^^^
+  File "/Users/farzanmirza/Desktop/drive/coding/android_world/android_world/suite_utils.py", line 456, in run_episode
+    return episode_runner.run_episode(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/farzanmirza/Desktop/drive/coding/android_world/android_world/episode_runner.py", line 81, in run_episode
+    result = agent.step(goal)
+             ^^^^^^^^^^^^^^^^
+  File "/Users/farzanmirza/Desktop/drive/coding/android_world/android_world/agents/farzan_agent.py", line 136, in step
+    box.action.ai(task)
+  File "/Users/farzanmirza/miniconda3/envs/android_world/lib/python3.11/site-packages/gbox_sdk/wrapper/box/action.py", line 137, in ai
+    return self.client.v1.boxes.actions.ai(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/farzanmirza/miniconda3/envs/android_world/lib/python3.11/site-packages/gbox_sdk/resources/v1/boxes/actions.py", line 156, in ai
+    self._post(
+  File "/Users/farzanmirza/miniconda3/envs/android_world/lib/python3.11/site-packages/gbox_sdk/_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/farzanmirza/miniconda3/envs/android_world/lib/python3.11/site-packages/gbox_sdk/_base_client.py", line 1032, in request
+    raise self._make_status_error_from_response(err.response) from None
+gbox_sdk.BadRequestError: Error code: 400 - {'code': 400, 'success': False, 'message': 'Invalid request parameters', 'errors': [], 'timestamp': '2025-08-30T01:55:32.728Z'}
+I0829 21:55:32.748157 8779718848 checkpointer.py:129] Wrote task episodes for ContactsAddContact_0 to /Users/farzanmirza/android_world/runs/run_20250829T215319930299/ContactsAddContact_0.pkl.gz
+I0829 21:55:32.770318 8779718848 suite_utils.py:74] 
+
+                             task_num  num_complete_trials  mean_success_rate  mean_episode_length  total_runtime_s  num_fail_trials
+task                                                                                                                                
+ContactsAddContact                  0                  0.0                NaN                  NaN            132.8              1.0
+========= Average =========         0                  0.0                NaN                  NaN            132.8              1.0
+
+
+                             task_num  num_complete_trials  mean_success_rate  mean_episode_length  total_runtime_s  num_fail_trials
+task                                                                                                                                
+ContactsAddContact                  0                  0.0                NaN                  NaN            132.8              1.0
+========= Average =========         0                  0.0                NaN                  NaN            132.8              1.0
+I0829 21:55:32.779739 8779718848 suite_utils.py:74] 
+
+Empty DataFrame
+Columns: []
+Index: []
+
+
+Empty DataFrame
+Columns: []
+Index: []
+
+Finished running agent farzan_agent on android_world family. Wrote to /Users/farzanmirza/android_world/runs/run_20250829T215319930299.
+I0829 21:55:32.780527 8779718848 a11y_grpc_wrapper.py:234] gRPC server stopped
+I0829 21:55:32.780579 8779718848 environment.py:119] Cleaning up AndroidEnv...
+(android_world) farzanmirza@Farzans-MacBook-Pro android_world % 
