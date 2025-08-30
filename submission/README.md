@@ -34,11 +34,12 @@ This document serves as my official submission for the [technical interview at g
     (Running in background. Use 'gbox device-connect unregister' to stop.)
     ```
 - The custom agent [``agents/farzan_agent.py``](../android_world/agents/farzan_agent.py) in action [video](appendix/ch2_vid.mov) and [terminal output](appendix/ch2_term.txt)
-<centering><img src="appendix/ch2.gif" width="30%" height="30%" align="center"/></centering>
+<img src="appendix/ch2.gif" width="30%" height="30%" align="center"/>
 
 ## ``Challenge 3`` - Configure Claude Code (cc) to Run Benchmark ✅
 Since Claude Code and Agent were pre-setup on my system this task happened quick with some NodeJS versioning troubles. The actual video exceeded 200MB therefore here is a spedup gif I could fit
-<centering><img src="appendix/ch3.gif" width="50%" height="50%" align="center"/></centering>
+<br><br>
+<img src="appendix/ch3.gif" align="center"/>
 
 
 # 2. Issues and Technical Deep Dive ⛔️  
