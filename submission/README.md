@@ -19,39 +19,16 @@ This document serves as my official submission for the [technical interview at g
     - `python minimal_task_runner.py --task=RecipeAddMultipleRecipes`
 
     The [terminal output](appendix/ch1_term_recipe.txt) has been truncated for readability (reducing repeated `I0`, `W0`, `E0` log entries to max 3 occurrences consecutively) while preserving the exact completion state. The ending output is as described in the [GBOX Technical Interview Task](https://docs.google.com/document/d/11XDcIPJqPaJczxd3bZJu001tGlhBJ2QyQOJ7gYeE5YM/edit?tab=t.0#heading=h.yf5q1o75t9l3) document:
-💚
-    ```console
-    Task Failed ❌; Add the following recipes into the Broccoli app:
-    Recipe: Chicken Caesar Salad Wrap
-    description: A delicious and healthy choice for any time of the day.
-    servings: 3-4 servings
-    preparationTime: 1 hrs
-    ingredients: to your liking
-    directions: Toss chopped romaine lettuce with Caesar dressing, grilled chicken strips, and Parmesan cheese. Wrap in a large tortilla. Try adding a pinch of your favorite spices for extra flavor.
-
-    Recipe: BBQ Chicken Quesadillas
-    description: An ideal recipe for experimenting with different flavors and ingredients.
-    servings: 3-4 servings
-    preparationTime: 3 hrs
-    ingredients: subject to change
-    directions: Mix shredded cooked chicken with BBQ sauce. Place on tortillas with cheese, fold and cook until crispy. Feel free to substitute with ingredients you have on hand.
-
-    Recipe: Turkey and Cheese Panini
-    description: An ideal recipe for experimenting with different flavors and ingredients.
-    servings: 6 servings
-    preparationTime: 45 mins
-    ingredients: flexible ingredients
-    directions: Layer turkey and cheese on bread, grill in a panini press until golden. Garnish with fresh herbs for a more vibrant taste.
-    ```
     [The 52-second video](appendix/ch1_vid_recipe.mp4) captures the agent's real-time interaction at 4x speed, documenting behavior from step 12 onward of the RecipeAddMultipleRecipes task. Due to file size, please download for optimal viewing.
+  
+<center><img src="appendix/ch1.gif" width="20%" height="30%" align="center"/></center>
+
 
 ## 1.2. ``Challenge 2`` - Build Custom Agent to Run Benchmark ✅
 - [Terminal output](appendix/ch2_term_avd.txt) shows virtual device from *Challenge 1* until [first screen](appendix/ch2_img_avd.png), setup using the following command:
     ```bash
     ~/Library/Android/sdk/emulator/emulator -avd AndroidWorldAvd -no-snapshot -grpc 8554
     ```
-
-
 - Then the device is registered using the following GBOX CLI steps
     ```bash
     farzanmirza@Farzans-MacBook-Pro ~ % conda activate android_world
@@ -61,7 +38,7 @@ This document serves as my official submission for the [technical interview at g
     (Running in background. Use 'gbox device-connect unregister' to stop.)
     ```
 - The custom agent [``agents/farzan_agent.py``](../android_world/agents/farzan_agent.py) in action [video](appendix/)
-
+<center><img src="appendix/ch2.gif" width="30%" height="30%" align="center"/></center>
 
 
 
