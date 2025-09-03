@@ -15,15 +15,14 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..",
 import subprocess
 import webbrowser
 
-from dotenv import load_dotenv
-from gbox_sdk import GboxSDK
-from PIL import Image
-
 from android_world.agents.base_agent import (
     AgentInteractionResult,
     EnvironmentInteractingAgent,
 )
 from android_world.env import adb_utils, env_launcher, interface
+from dotenv import load_dotenv
+from gbox_sdk import GboxSDK
+from PIL import Image
 
 load_dotenv()
 
@@ -49,7 +48,7 @@ signal.signal(signal.SIGINT, graceful_shutdown)
 signal.signal(signal.SIGTERM, graceful_shutdown)
 
 """
-Part 1. Agent Setup
+Part 1. Agent Setup - Testing
 """
 
 
