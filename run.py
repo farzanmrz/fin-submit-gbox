@@ -30,6 +30,7 @@ from android_world import registry, suite_utils
 from android_world.agents import (
     base_agent,
     farzan_agent,
+    gbox_agent,
     human_agent,
     infer,
     m3a,
@@ -176,6 +177,9 @@ def _get_agent(
     # FarzanAgent - minimal skeleton agent for Challenge 2.
     elif _AGENT_NAME.value == "farzan_agent":
         agent = farzan_agent.FarzanAgent(env)
+    # GboxAgent - new agent for multi-LLM orchestrator architecture.
+    elif _AGENT_NAME.value == "gbox_agent":
+        agent = gbox_agent.GboxAgent(env)
     if not agent:
         raise ValueError(f"Unknown agent: {_AGENT_NAME.value}")
 

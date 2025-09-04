@@ -15,16 +15,18 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..",
 import subprocess
 import webbrowser
 
+from dotenv import load_dotenv
+from gbox_sdk import GboxSDK
+from PIL import Image
+
 from android_world.agents.base_agent import (
     AgentInteractionResult,
     EnvironmentInteractingAgent,
 )
 from android_world.env import adb_utils, env_launcher, interface
-from dotenv import load_dotenv
-from gbox_sdk import GboxSDK
-from PIL import Image
 
-load_dotenv()
+# Load .env from project root
+load_dotenv(os.path.join(os.path.dirname(__file__), "..", "..", ".env"))
 
 # Global variable for graceful shutdown
 current_box = None
